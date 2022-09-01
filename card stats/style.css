@@ -1,0 +1,51 @@
+body{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    background-color: hsl(233, 47%, 7%);
+    padding-top: 100px;
+}
+.main{
+   height: 900px;
+   width: 700px;
+    
+}
+.card{
+    border-radius: 8px;
+    background-color: hsl(244, 38%, 16%);   
+}
+img{
+    float: right;
+    width: 430px;
+    height: 370x;
+}
+
+.text{
+    padding: 60px 60px 50px 60px;
+    margin-left: 10px;
+    color: white;
+    width: 33%;
+   
+}
+p{
+    line-height: 2;
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: normal;  
+}
+h1{
+    font-family: 'Inter', sans-serif;
+}
+
+.rate{
+    display: flex;
+    justify-content: space-between;
+}
+
+strong{
+    color: hsl(277, 64%, 61%);
+}
+span{
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 10px;
+    font-weight: normal;
+}
