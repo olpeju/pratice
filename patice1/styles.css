@@ -1,0 +1,39 @@
+body{
+    display: flex;
+    justify-content: center;
+    text-align: left;
+    background-color: rgb(252, 227, 227);
+    
+
+}
+.card{
+    background-color: #fff;
+    margin-top: 75px;
+}
+h5{
+    font-family: 'Fraunces' serif;
+    font-weight: lighter;
+}
+.card-text{
+    font-family: 'Montserrat';
+    width: 70%;
+    font-size: 25px;
+}
+.card-txt{
+    font-family: 'Source Sans Pro', sans-serif;
+    line-height: 2;
+    width: 70%;
+}
+
+.price{
+    width: auto;   
+    justify-content: space-between;
+    font-size: 30px;
+    color: rgb(38, 104, 67);
+    font-weight: bold;
+   }
+   span:nth-child(1){
+    color: grey;
+    text-decoration: line-through;
+    font-size: 13px;
+   }
